@@ -1,0 +1,40 @@
+{
+  "menuItems": [
+    {
+      "mainItem": "Oasis",
+      "subItems": [
+        "Explore Oasis",
+        "Oasis Collection",
+        "Oasis Sofa Collection",
+        "Living Room",
+        "Bedroom",
+        "Dining Room"
+      ]
+    },
+    {
+      "mainItem": "Terra",
+      "subItems": [
+        "Terra Collection",
+        "Living Room",
+        "Bedroom",
+        "Dining Room"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "Name": "Hubert 6 Door Kitchen Display Cabinet ",
+      "Price": "₹16,800"
+    },
+    {
+      "Name": "Babylon Solid Wood Bookshelf in Walnut",
+      "Price": "₹3,926"
+    },
+    {
+      "Name": "Rhodes Solid Wood Bookshelf in Teak",
+      "Price": "₹15,469"
+    }
+  ],
+  "emailErrors": "Please enter a valid email address.",
+  "pinErrors": "Please enter a valid pincode"
+}

@@ -1,0 +1,265 @@
+locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('.productlist.withdivider li').nth(1)
+    - waiting for navigation to finish...
+    - navigated to "https://www.urbanladder.com/products/search?utf8=%E2%9C%93&keywords=birthday"
+
+    at productSearch.selectProduct (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\porductSearch.js:45:75)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:52:20 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@10',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\porductSearch.js',
+      line: 45,
+      column: 75,
+      function: 'productSearch.selectProduct'
+    },
+    category: 'pw:api',
+    title: 'locator.click(.productlist.withdivider li >> nth=1)',
+    apiName: 'locator.click',
+    params: { selector: '.productlist.withdivider li >> nth=1', strict: true },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@10'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998074153,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('.productlist.withdivider li').nth(1)\x1B[22m\n" +
+        '\x1B[2m    - waiting for navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://www.urbanladder.com/products/search?utf8=%E2%9C%93&keywords=birthday"\x1B[22m\n',
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('.productlist.withdivider li').nth(1)\x1B[22m\n" +
+        '\x1B[2m    - waiting for navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://www.urbanladder.com/products/search?utf8=%E2%9C%93&keywords=birthday"\x1B[22m\n' +
+        '\n' +
+        '    at productSearch.selectProduct (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\porductSearch.js:45:75)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:52:20',
+      cause: undefined
+    }
+  }
+}
+locator.click: Target page, context or browser has been closed
+    at cartPage.addToCart (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\cartPage.js:11:74)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:56:20 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@12',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js',
+      line: 11,
+      column: 74,
+      function: 'cartPage.addToCart'
+    },
+    category: 'pw:api',
+    title: "locator.getByRole('button', { name: 'Add to Cart' }).click",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:role=button[name="Add to Cart"i]',
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@12'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998074260,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed',
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        '    at cartPage.addToCart (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js:11:74)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:56:20',
+      cause: undefined
+    }
+  }
+}
+page.click: Target page, context or browser has been closed
+    at cartPage.checkOut (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\cartPage.js:26:29)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:57:20 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@13',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js',
+      line: 26,
+      column: 29,
+      function: 'cartPage.checkOut'
+    },
+    category: 'pw:api',
+    title: "page.click((//button[@id='checkout-link'])[1])",
+    apiName: 'page.click',
+    params: { selector: "(//button[@id='checkout-link'])[1]" },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@13'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998074273,
+    error: {
+      message: 'Error: page.click: Target page, context or browser has been closed',
+      stack: 'Error: page.click: Target page, context or browser has been closed\n' +
+        '    at cartPage.checkOut (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js:26:29)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:57:20',
+      cause: undefined
+    }
+  }
+}
+locator.fill: Target page, context or browser has been closed
+    at cartPage.enterEmail (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\cartPage.js:35:65)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:59:20 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@14',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js',
+      line: 35,
+      column: 65,
+      function: 'cartPage.enterEmail'
+    },
+    category: 'pw:api',
+    title: 'locator.fill(email@17)',
+    apiName: 'locator.fill',
+    params: {
+      selector: 'internal:attr=[placeholder="Enter Email"i]',
+      value: 'email@17',
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@14'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998074278,
+    error: {
+      message: 'Error: locator.fill: Target page, context or browser has been closed',
+      stack: 'Error: locator.fill: Target page, context or browser has been closed\n' +
+        '    at cartPage.enterEmail (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js:35:65)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:59:20',
+      cause: undefined
+    }
+  }
+}
+locator.fill: Target page, context or browser has been closed
+    at cartPage.enterPincode (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\cartPage.js:43:93)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:60:20 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@15',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js',
+      line: 43,
+      column: 93,
+      function: 'cartPage.enterPincode'
+    },
+    category: 'pw:api',
+    title: 'locator.fill(987)',
+    apiName: 'locator.fill',
+    params: {
+      selector: "//input[@id='order_ship_address_attributes_zipcode']",
+      value: '987',
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@15'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998074282,
+    error: {
+      message: 'Error: locator.fill: Target page, context or browser has been closed',
+      stack: 'Error: locator.fill: Target page, context or browser has been closed\n' +
+        '    at cartPage.enterPincode (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js:43:93)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:60:20',
+      cause: undefined
+    }
+  }
+}
+page.textContent: Target page, context or browser has been closed
+    at cartPage.validateEmail (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\cartPage.js:51:46)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:61:20 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@16',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js',
+      line: 51,
+      column: 46,
+      function: 'cartPage.validateEmail'
+    },
+    category: 'pw:api',
+    title: 'page.textContent(//label[@for="order_email" and @class = "error"])',
+    apiName: 'page.textContent',
+    params: { selector: '//label[@for="order_email" and @class = "error"]' },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@16'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998074286,
+    error: {
+      message: 'Error: page.textContent: Target page, context or browser has been closed',
+      stack: 'Error: page.textContent: Target page, context or browser has been closed\n' +
+        '    at cartPage.validateEmail (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js:51:46)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:61:20',
+      cause: undefined
+    }
+  }
+}
+page.textContent: Target page, context or browser has been closed
+    at cartPage.validatePinCode (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\cartPage.js:60:47)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:62:20 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@17',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js',
+      line: 60,
+      column: 47,
+      function: 'cartPage.validatePinCode'
+    },
+    category: 'pw:api',
+    title: 'page.textContent(//label[@for="order_ship_address_attributes_zipcode"and @class="error"])',
+    apiName: 'page.textContent',
+    params: {
+      selector: '//label[@for="order_ship_address_attributes_zipcode"and @class="error"]'
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@17'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998074289,
+    error: {
+      message: 'Error: page.textContent: Target page, context or browser has been closed',
+      stack: 'Error: page.textContent: Target page, context or browser has been closed\n' +
+        '    at cartPage.validatePinCode (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\cartPage.js:60:47)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:62:20',
+      cause: undefined
+    }
+  }
+}

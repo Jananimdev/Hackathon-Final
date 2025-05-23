@@ -1,0 +1,71 @@
+page.goto: Target page, context or browser has been closed
+    at productSearch.loadURL (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\porductSearch.js:14:29)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:60:20 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@2',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\porductSearch.js',
+      line: 14,
+      column: 29,
+      function: 'productSearch.loadURL'
+    },
+    category: 'pw:api',
+    title: 'page.goto(https://www.urbanladder.com/)',
+    apiName: 'page.goto',
+    params: { url: 'https://www.urbanladder.com/', waitUntil: 'load' },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@2'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998826117,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at productSearch.loadURL (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\porductSearch.js:14:29)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:60:20',
+      cause: undefined
+    }
+  }
+}
+locator.hover: Target page, context or browser has been closed
+    at navBarMenu.getValueOfMenu (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\navBarMenu.js:10:114)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:61:23 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@3',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\navBarMenu.js',
+      line: 10,
+      column: 114,
+      function: 'navBarMenu.getValueOfMenu'
+    },
+    category: 'pw:api',
+    title: "locator.hover(//div[@id='topnav_wrapper']//li//span[normalize-space(text())='New Collection'])",
+    apiName: 'locator.hover',
+    params: {
+      selector: "//div[@id='topnav_wrapper']//li//span[normalize-space(text())='New Collection']",
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@3'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998826132,
+    error: {
+      message: 'Error: locator.hover: Target page, context or browser has been closed',
+      stack: 'Error: locator.hover: Target page, context or browser has been closed\n' +
+        '    at navBarMenu.getValueOfMenu (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\navBarMenu.js:10:114)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:61:23',
+      cause: undefined
+    }
+  }
+}

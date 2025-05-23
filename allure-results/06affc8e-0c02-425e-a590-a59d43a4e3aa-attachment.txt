@@ -1,0 +1,82 @@
+locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//ul[@class=\'sortoptions\']//li[text()="undefined"]')
+
+    at productSearch.sortBy (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\porductSearch.js:88:90)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:50:9 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@20',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\porductSearch.js',
+      line: 88,
+      column: 90,
+      function: 'productSearch.sortBy'
+    },
+    category: 'pw:api',
+    title: `locator.click(//ul[@class='sortoptions']//li[text()="undefined"])`,
+    apiName: 'locator.click',
+    params: {
+      selector: `//ul[@class='sortoptions']//li[text()="undefined"]`,
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@20'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998826038,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('//ul[@class=\\'sortoptions\\']//li[text()="undefined"]')\x1B[22m\n`,
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('//ul[@class=\\'sortoptions\\']//li[text()="undefined"]')\x1B[22m\n` +
+        '\n' +
+        '    at productSearch.sortBy (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\porductSearch.js:88:90)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:50:9',
+      cause: undefined
+    }
+  }
+}
+locator.textContent: Target page, context or browser has been closed
+    at getPorductDetails.getDetails (C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\pages\getPorductDetails.js:14:18)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\HACKATHON\tests\urbanLader.spec.js:51:9 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@21',
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\getPorductDetails.js',
+      line: 14,
+      column: 18,
+      function: 'getPorductDetails.getDetails'
+    },
+    category: 'pw:api',
+    title: 'locator.textContent(.productlist.withdivider li >> nth=0 >> .product-info-block .product-title .name)',
+    apiName: 'locator.textContent',
+    params: {
+      selector: '.productlist.withdivider li >> nth=0 >> .product-info-block .product-title .name',
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@21'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747998826051,
+    error: {
+      message: 'Error: locator.textContent: Target page, context or browser has been closed',
+      stack: 'Error: locator.textContent: Target page, context or browser has been closed\n' +
+        '    at getPorductDetails.getDetails (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\pages\\getPorductDetails.js:14:18)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\HACKATHON\\tests\\urbanLader.spec.js:51:9',
+      cause: undefined
+    }
+  }
+}
