@@ -1,0 +1,156 @@
+page.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//button[normalize-space(text())=\'Add to Cart\']')
+    - locator resolved to 2 elements. Proceeding with the first one: <button name="button" type="submit" data-gaclick="1" data-id="314152" data-gaaction="clicked" id="add-to-cart-button" data-event="add_to_cart" data-gacategory="product" data-galabel="add to cart" data-gausetimespent="true" data-sku="FNSGBR12AM16362" data-variantname="(Amber Walnut Finish)" class="primary action-button  add-to-cart">Add to Cart↵</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    49 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+    at cartPage.addToCart (C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\pages\cartPage.js:10:29)
+    at C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\tests\urbanLader.spec.js:36:16 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@33',
+    location: {
+      file: 'C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js',
+      line: 10,
+      column: 29,
+      function: 'cartPage.addToCart'
+    },
+    category: 'pw:api',
+    title: "page.click(//button[normalize-space(text())='Add to Cart'])",
+    apiName: 'page.click',
+    params: { selector: "//button[normalize-space(text())='Add to Cart']" },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@33'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747976172274,
+    error: {
+      message: 'Error: page.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//button[normalize-space(text())=\\'Add to Cart\\']')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to 2 elements. Proceeding with the first one: <button name="button" type="submit" data-gaclick="1" data-id="314152" data-gaaction="clicked" id="add-to-cart-button" data-event="add_to_cart" data-gacategory="product" data-galabel="add to cart" data-gausetimespent="true" data-sku="FNSGBR12AM16362" data-variantname="(Amber Walnut Finish)" class="primary action-button  add-to-cart">Add to Cart↵</button>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    49 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m       - element is not visible\x1B[22m\n' +
+        '\x1B[2m     - retrying click action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n',
+      stack: 'Error: page.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//button[normalize-space(text())=\\'Add to Cart\\']')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to 2 elements. Proceeding with the first one: <button name="button" type="submit" data-gaclick="1" data-id="314152" data-gaaction="clicked" id="add-to-cart-button" data-event="add_to_cart" data-gacategory="product" data-galabel="add to cart" data-gausetimespent="true" data-sku="FNSGBR12AM16362" data-variantname="(Amber Walnut Finish)" class="primary action-button  add-to-cart">Add to Cart↵</button>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    49 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m       - element is not visible\x1B[22m\n' +
+        '\x1B[2m     - retrying click action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at cartPage.addToCart (C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js:10:29)\n' +
+        '    at C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\tests\\urbanLader.spec.js:36:16',
+      cause: undefined
+    }
+  }
+}
+page.click: Target page, context or browser has been closed
+    at cartPage.checkOut (C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\pages\cartPage.js:25:29)
+    at C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\tests\urbanLader.spec.js:37:16 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@34',
+    location: {
+      file: 'C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js',
+      line: 25,
+      column: 29,
+      function: 'cartPage.checkOut'
+    },
+    category: 'pw:api',
+    title: "page.click((//button[@id='checkout-link'])[1])",
+    apiName: 'page.click',
+    params: { selector: "(//button[@id='checkout-link'])[1]" },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@34'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747976172290,
+    error: {
+      message: 'Error: page.click: Target page, context or browser has been closed',
+      stack: 'Error: page.click: Target page, context or browser has been closed\n' +
+        '    at cartPage.checkOut (C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js:25:29)\n' +
+        '    at C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\tests\\urbanLader.spec.js:37:16',
+      cause: undefined
+    }
+  }
+}
+locator.fill: Target page, context or browser has been closed
+    at cartPage.enterEmail (C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\pages\cartPage.js:34:65)
+    at C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\tests\urbanLader.spec.js:39:16 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@35',
+    location: {
+      file: 'C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js',
+      line: 34,
+      column: 65,
+      function: 'cartPage.enterEmail'
+    },
+    category: 'pw:api',
+    title: 'locator.fill(email@17)',
+    apiName: 'locator.fill',
+    params: {
+      selector: 'internal:attr=[placeholder="Enter Email"i]',
+      value: 'email@17',
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@35'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747976172294,
+    error: {
+      message: 'Error: locator.fill: Target page, context or browser has been closed',
+      stack: 'Error: locator.fill: Target page, context or browser has been closed\n' +
+        '    at cartPage.enterEmail (C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js:34:65)\n' +
+        '    at C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\tests\\urbanLader.spec.js:39:16',
+      cause: undefined
+    }
+  }
+}

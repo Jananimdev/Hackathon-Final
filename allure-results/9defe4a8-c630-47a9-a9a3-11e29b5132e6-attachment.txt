@@ -1,0 +1,86 @@
+ExpectError: Timed out 5000ms waiting for expect(locator).toHaveTitle(expected)
+
+Locator: locator(':root')
+Expected string: "harini"
+Received string: "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"
+Call log:
+  - expect.toHaveTitle with timeout 5000ms
+  - waiting for locator(':root')
+    9 × locator resolved to <html lang="en">…</html>
+      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"
+
+    at productSearch.loadURL (C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\pages\porductSearch.js:15:37)
+    at C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\tests\urbanLader.spec.js:20:5 {
+  matcherResult: {
+    name: 'toHaveTitle',
+    expected: 'harini',
+    message: '\x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveTitle\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+      '\n' +
+      "Locator: locator(':root')\n" +
+      'Expected string: \x1B[32m"harini"\x1B[39m\n' +
+      'Received string: \x1B[31m"Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[39m\n' +
+      'Call log:\n' +
+      '\x1B[2m  - expect.toHaveTitle with timeout 5000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for locator(':root')\x1B[22m\n" +
+      '\x1B[2m    9 × locator resolved to <html lang="en">…</html>\x1B[22m\n' +
+      '\x1B[2m      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[22m\n',
+    pass: false,
+    actual: 'Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder',
+    log: [
+      '  - expect.toHaveTitle with timeout 5000ms',
+      "  - waiting for locator(':root')",
+      '    9 × locator resolved to <html lang="en">…</html>',
+      '      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"'
+    ],
+    timeout: 5000
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@9',
+    category: 'expect',
+    title: 'expect.toHaveTitle',
+    params: { expected: 'harini' },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\porductSearch.js',
+      line: 15,
+      column: 37,
+      function: 'productSearch.loadURL'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@9'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747910065688,
+    error: {
+      message: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveTitle\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator(':root')\n" +
+        'Expected string: \x1B[32m"harini"\x1B[39m\n' +
+        'Received string: \x1B[31m"Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[39m\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toHaveTitle with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator(':root')\x1B[22m\n" +
+        '\x1B[2m    9 × locator resolved to <html lang="en">…</html>\x1B[22m\n' +
+        '\x1B[2m      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[22m\n',
+      stack: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveTitle\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator(':root')\n" +
+        'Expected string: \x1B[32m"harini"\x1B[39m\n' +
+        'Received string: \x1B[31m"Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[39m\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toHaveTitle with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator(':root')\x1B[22m\n" +
+        '\x1B[2m    9 × locator resolved to <html lang="en">…</html>\x1B[22m\n' +
+        '\x1B[2m      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[22m\n' +
+        '\n' +
+        '    at productSearch.loadURL (C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\porductSearch.js:15:37)\n' +
+        '    at C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\tests\\urbanLader.spec.js:20:5',
+      cause: undefined
+    }
+  }
+}

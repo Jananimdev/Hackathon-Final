@@ -1,0 +1,1217 @@
+# Test info
+
+- Name: bookShelves
+- Location: C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\tests\urbanLader.spec.js:12:5
+
+# Error details
+
+```
+Error: locator.textContent: Test ended.
+Call log:
+  - waiting for locator('//span[@class=\'topnav_itemname active\']')
+
+    at navBarMenu.getValueOfMenu (C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\pages\navBarMenu.js:12:87)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\tests\urbanLader.spec.js:29:5)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\workerMain.js:304:9)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\testInfo.js:277:11)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\workerMain.js:302:7)
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - list:
+    - listitem:
+      - link "Help":
+        - /url: /help
+        - img
+        - text: Help
+    - listitem:
+      - link "Track Order":
+        - /url: /orders
+        - img
+        - text: Track Order
+  - list:
+    - listitem:
+      - link "Become a Franchisee":
+        - /url: https://forms.gle/CmpM3YQ25JkWXiNR7
+      - text: New
+    - listitem:
+      - link "Find a Store":
+        - /url: ../../store-cities?src=header
+    - listitem:
+      - link "Bulk Orders":
+        - /url: ../../../institutional-business?src=header
+    - listitem:
+      - link "UL Services":
+        - /url: ../../../ul-services?src=header
+  - link:
+    - /url: /
+    - figure:
+      - img
+      - img
+  - searchbox
+  - searchbox "Search"
+  - button ""
+  - list:
+    - listitem:
+      - link "Track Order":
+        - /url: /orders?src=track-order
+        - img
+    - listitem:
+      - img
+    - listitem:
+      - link "0":
+        - /url: /wishlist?src=header
+        - img
+        - text: "0"
+    - listitem:
+      - link "0":
+        - /url: /cart?src=header
+        - img
+        - text: "0"
+  - text: Full House Fiesta upto 70% OFF + Extra Discounts !
+  - link "Shop Now":
+    - /url: https://www.urbanladder.com/mega-furniture-sale?src=ticker
+    - strong: Shop Now
+  - navigation:
+    - list:
+      - listitem: New Collection
+      - listitem: Deal Zone
+      - listitem: Sofas & Recliners
+      - listitem: Living
+      - listitem: Bedroom & Mattresses
+      - listitem: Dining
+      - listitem: Storage Furniture
+      - listitem: Study
+      - listitem: Lighting & Decor
+      - listitem: Interiors
+      - listitem: Stores
+- navigation:
+  - list:
+    - listitem:
+      - link "Furniture Home":
+        - /url: /?src=g_breadcrumb
+      - text: ">"
+    - listitem:
+      - link "Storage":
+        - /url: /storage?src=g_breadcrumb
+      - text: ">"
+    - listitem:
+      - link "Living Storage":
+        - /url: /living-storage?src=g_breadcrumb
+      - text: ">"
+    - listitem:
+      - link "Bookshelves":
+        - /url: /bookshelf?src=g_breadcrumb
+- heading "Bookshelves" [level=1]
+- text: (24 Products) In today's digital world, bookshelves remain unbeaten symbols of interests, knowledge, and personal expression. These furniture pieces not only hold books and objects of stories and experiences, but they are also storytellers themselves. Bookshelves are fondly held, whether in the compact study or a ...
+- link "More":
+  - /url: javascript:void(0);
+- text: Filters
+- list:
+  - listitem: Price
+  - listitem: Storage Type
+  - listitem: Material
+  - listitem: Brand
+  - listitem: Mount Type
+  - listitem: No of Shelves
+- checkbox "Exclude Out Of Stock"
+- text: Exclude Out Of Stock Sort By New Arrivals
+- list:
+  - listitem: ₹585 - ₹15,000 
+  - listitem: Closed 
+- list:
+  - listitem:
+    - link "Bookshelf Design Alexandra Solid Wood Bookshelf in American Walnut":
+      - /url: /products/alexandra-bookshelf-fnxxbr12mh16457?sku=FNSGBR12MH16312&src=subcat
+      - img "Bookshelf Design Alexandra Solid Wood Bookshelf in American Walnut"
+    - text: 18% Off
+    - link "Alexandra Solid Wood Bookshelf in American Walnut By Urban Ladder ₹39,999 ₹32,799 | EMI from ₹1,575":
+      - /url: /products/alexandra-bookshelf-fnxxbr12mh16457?sku=FNSGBR12MH16312&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Elliot Engineered Wood Bookshelf in Classic Walnut":
+      - /url: /products/elliot-sliding-book-shelf-classic-walnut-fnxxbr33cw36046?sku=FNSGBR33CW36046&src=subcat
+      - img "Bookshelf Design Elliot Engineered Wood Bookshelf in Classic Walnut"
+    - text: 39% Off
+    - link "Elliot Engineered Wood Bookshelf in Classic Walnut By Urban Ladder ₹24,799 ₹14,999 | EMI from ₹721":
+      - /url: /products/elliot-sliding-book-shelf-classic-walnut-fnxxbr33cw36046?sku=FNSGBR33CW36046&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Paige Engineered Wood Bookshelf in Frosty White":
+      - /url: /products/paige-tall-stoarge-cabinet-frosty-white-fnxxbr33fw36045?sku=FNSGBR33FW36045&src=subcat
+      - img "Bookshelf Design Paige Engineered Wood Bookshelf in Frosty White"
+    - text: 35% Off
+    - link "Paige Engineered Wood Bookshelf in Frosty White By Urban Ladder ₹25,299 ₹16,444 | EMI from ₹790":
+      - /url: /products/paige-tall-stoarge-cabinet-frosty-white-fnxxbr33fw36045?sku=FNSGBR33FW36045&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Elliot Engineered Wood Bookshelf in Californian Walnut":
+      - /url: /products/elliot-sliding-book-shelf-classic-walnut-fnxxbr33cw36046?sku=FNSGBR33CA36047&src=subcat
+      - img "Bookshelf Design Elliot Engineered Wood Bookshelf in Californian Walnut"
+    - text: 39% Off
+    - link "Elliot Engineered Wood Bookshelf in Californian Walnut By Urban Ladder ₹24,799 ₹14,999 | EMI from ₹721":
+      - /url: /products/elliot-sliding-book-shelf-classic-walnut-fnxxbr33cw36046?sku=FNSGBR33CA36047&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Hubert 6 Door Kitchen Display Cabinet (Classic Walnut Finish)":
+      - /url: /products/hubert-6-door-display-cabinet?sku=FNSGBR33BR35937&src=subcat
+      - img "Bookshelf Design Hubert 6 Door Kitchen Display Cabinet (Classic Walnut Finish)"
+    - text: 47% Off
+    - link "Hubert 6 Door Kitchen Display Cabinet (Classic Walnut Finish) By Urban Ladder ₹31,699 ₹16,800 | EMI from ₹807":
+      - /url: /products/hubert-6-door-display-cabinet?sku=FNSGBR33BR35937&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Tenaya Solid Wood Sideboard in Teak Finish":
+      - /url: /products/tenaya-solid-wood-bookshelf-fvxxbr62gy12893?sku=JJSGBR62GY10126&src=subcat
+      - img "Bookshelf Design Tenaya Solid Wood Sideboard in Teak Finish"
+    - text: 23% Off
+    - link "Tenaya Solid Wood Sideboard in Teak Finish By Saffron Art ₹26,356 ₹20,294 | EMI from ₹975":
+      - /url: /products/tenaya-solid-wood-bookshelf-fvxxbr62gy12893?sku=JJSGBR62GY10126&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Kalynda Solid Wood Sideboard in Black Finish":
+      - /url: /products/kalynda-crockery-unit-fvxxbr62bk12883?sku=JJSGBR62BK10116&src=subcat
+      - img "Bookshelf Design Kalynda Solid Wood Sideboard in Black Finish"
+    - text: 31% Off
+    - link "Kalynda Solid Wood Sideboard in Black Finish By Saffron Art ₹31,953 ₹22,047 | EMI from ₹1,059":
+      - /url: /products/kalynda-crockery-unit-fvxxbr62bk12883?sku=JJSGBR62BK10116&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Dhaval Solid Wood Bookshelf in Brown":
+      - /url: /products/dhaval-bookshelf-fvxxbr62tk12888?sku=JJSGBR62TK10121&src=subcat
+      - img "Bookshelf Design Dhaval Solid Wood Bookshelf in Brown"
+    - text: 23% Off
+    - link "Dhaval Solid Wood Bookshelf in Brown By Saffron Art ₹33,231 ₹25,587 | EMI from ₹1,229":
+      - /url: /products/dhaval-bookshelf-fvxxbr62tk12888?sku=JJSGBR62TK10121&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Johar Solid Wood Sideboard in Blue Finish":
+      - /url: /products/johar-bookshelf-fvxxbr62bl12881?sku=JJSGBR62BL10114&src=subcat
+      - img "Bookshelf Design Johar Solid Wood Sideboard in Blue Finish"
+    - text: 31% Off
+    - link "Johar Solid Wood Sideboard in Blue Finish By Saffron Art & Crafts ₹21,728 ₹14,992 | EMI from ₹720":
+      - /url: /products/johar-bookshelf-fvxxbr62bl12881?sku=JJSGBR62BL10114&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Janak Solid Wood Sideboard in Distressed Finish":
+      - /url: /products/janak-crockery-unit-fvxxbr62bl12882?sku=JJSGBR62BL10115&src=subcat
+      - img "Bookshelf Design Janak Solid Wood Sideboard in Distressed Finish"
+    - text: 23% Off
+    - link "Janak Solid Wood Sideboard in Distressed Finish By Saffron Art & Crafts ₹26,356 ₹20,294 | EMI from ₹975":
+      - /url: /products/janak-crockery-unit-fvxxbr62bl12882?sku=JJSGBR62BL10115&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Vanita Solid Wood Sideboard in Distressed Finish":
+      - /url: /products/vanita-crockery-unit-fvxxbr62wh12887?sku=JJSGBR62WH10120&src=subcat
+      - img "Bookshelf Design Vanita Solid Wood Sideboard in Distressed Finish"
+    - text: 31% Off
+    - link "Vanita Solid Wood Sideboard in Distressed Finish By Saffron Art ₹31,953 ₹22,047 | EMI from ₹1,059":
+      - /url: /products/vanita-crockery-unit-fvxxbr62wh12887?sku=JJSGBR62WH10120&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Romano Engineered Wood Bookshelf in Matte Laminate":
+      - /url: /products/pinky-bookshelf-cum-storage-unit?sku=FVSGBR33IV33724&src=subcat
+      - img "Bookshelf Design Romano Engineered Wood Bookshelf in Matte Laminate"
+    - text: 11% Off
+    - link "Romano Engineered Wood Bookshelf in Matte Laminate By Adona ₹17,999 ₹16,019 | EMI from ₹770":
+      - /url: /products/pinky-bookshelf-cum-storage-unit?sku=FVSGBR33IV33724&src=subcat
+    - text: 
+  - listitem:
+    - img "FHF_Desktop_Listing"
+  - listitem:
+    - link "Bookshelf Design Romano Engineered Wood Bookshelf in Matte Laminate":
+      - /url: /products/pinky-bookshelf-cum-storage-unit?sku=FVSGBR33EB33725&src=subcat
+      - img "Bookshelf Design Romano Engineered Wood Bookshelf in Matte Laminate"
+    - text: 11% Off
+    - link "Romano Engineered Wood Bookshelf in Matte Laminate By Adona ₹17,999 ₹16,019 | EMI from ₹770":
+      - /url: /products/pinky-bookshelf-cum-storage-unit?sku=FVSGBR33EB33725&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Romano Engineered Wood Bookshelf in Matte Laminate":
+      - /url: /products/pinky-bookshelf-cum-storage-unit?sku=FVSGBR33CP33726&src=subcat
+      - img "Bookshelf Design Romano Engineered Wood Bookshelf in Matte Laminate"
+    - text: 11% Off
+    - link "Romano Engineered Wood Bookshelf in Matte Laminate By Adona ₹17,999 ₹16,019 | EMI from ₹770":
+      - /url: /products/pinky-bookshelf-cum-storage-unit?sku=FVSGBR33CP33726&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Roca Engineered Wood Bookshelf in Matte Laminate":
+      - /url: /products/roca-bookshelf-cum-display-unit?sku=FVSGBR33EB33711&src=subcat
+      - img "Bookshelf Design Roca Engineered Wood Bookshelf in Matte Laminate"
+    - text: 20% Off
+    - link "Roca Engineered Wood Bookshelf in Matte Laminate By Adona ₹21,999 ₹17,599 | EMI from ₹845":
+      - /url: /products/roca-bookshelf-cum-display-unit?sku=FVSGBR33EB33711&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Roca Engineered Wood Bookshelf in Matte Laminate":
+      - /url: /products/roca-bookshelf-cum-display-unit?sku=FVSGBR33CW33712&src=subcat
+      - img "Bookshelf Design Roca Engineered Wood Bookshelf in Matte Laminate"
+    - text: 20% Off
+    - link "Roca Engineered Wood Bookshelf in Matte Laminate By Adona ₹21,999 ₹17,599 | EMI from ₹845":
+      - /url: /products/roca-bookshelf-cum-display-unit?sku=FVSGBR33CW33712&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Minerva Engineered Wood Bookshelf in Matte Laminate":
+      - /url: /products/minerva-bookshelf-cum-storage-unit?sku=FVSGBR33CW33692&src=subcat
+      - img "Bookshelf Design Minerva Engineered Wood Bookshelf in Matte Laminate"
+    - text: 17% Off
+    - link "Minerva Engineered Wood Bookshelf in Matte Laminate By Adona ₹22,999 ₹19,089 | EMI from ₹917":
+      - /url: /products/minerva-bookshelf-cum-storage-unit?sku=FVSGBR33CW33692&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Malabar Solid Wood Bookshelf in Amber Walnut":
+      - /url: /products/malabar-barrister-bookshelf?sku=FNSGBR12TK10063&src=subcat
+      - img "Bookshelf Design Malabar Solid Wood Bookshelf in Amber Walnut"
+    - text: 30% Off
+    - link "Malabar Solid Wood Bookshelf in Amber Walnut By Urban Ladder ₹46,099 ₹32,269 | EMI from ₹1,550":
+      - /url: /products/malabar-barrister-bookshelf?sku=FNSGBR12TK10063&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Malabar Solid Wood Bookshelf in Mango Mahogany":
+      - /url: /products/malabar-barrister-bookshelf?sku=FNSGBR12MH10063&src=subcat
+      - img "Bookshelf Design Malabar Solid Wood Bookshelf in Mango Mahogany"
+    - text: 30% Off
+    - link "Malabar Solid Wood Bookshelf in Mango Mahogany By Urban Ladder ₹46,099 ₹32,269 | EMI from ₹1,550":
+      - /url: /products/malabar-barrister-bookshelf?sku=FNSGBR12MH10063&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Hubert Low Kitchen Display Cabinet (Classic Walnut Finish)":
+      - /url: /products/hubert-low-display-unit?sku=FNSGBR33BR35936&src=subcat
+      - img "Bookshelf Design Hubert Low Kitchen Display Cabinet (Classic Walnut Finish)"
+    - text: 48% Off
+    - link "Hubert Low Kitchen Display Cabinet (Classic Walnut Finish) By Urban Ladder ₹15,399 ₹8,007 | EMI from ₹385":
+      - /url: /products/hubert-low-display-unit?sku=FNSGBR33BR35936&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Murano Solid Wood Bookshelf/Display Unit (Amber Walnut Finish)":
+      - /url: /products/murano-single-door-display-cabinet?sku=FNSGBR62AW36241&src=subcat
+      - img "Bookshelf Design Murano Solid Wood Bookshelf/Display Unit (Amber Walnut Finish)"
+    - text: 36% Off
+    - link "Murano Solid Wood Bookshelf/Display Unit (Amber Walnut Finish) By Urban Ladder ₹42,199 ₹27,007 | EMI from ₹1,297":
+      - /url: /products/murano-single-door-display-cabinet?sku=FNSGBR62AW36241&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Murano Solid Wood Bookshelf/Display Unit (Mango Walnut Finish)":
+      - /url: /products/murano-single-door-display-cabinet?sku=FNSGBR62MM36241&src=subcat
+      - img "Bookshelf Design Murano Solid Wood Bookshelf/Display Unit (Mango Walnut Finish)"
+    - text: 35% Off
+    - link "Murano Solid Wood Bookshelf/Display Unit (Mango Walnut Finish) By Urban Ladder ₹42,199 ₹27,429 | EMI from ₹1,317":
+      - /url: /products/murano-single-door-display-cabinet?sku=FNSGBR62MM36241&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Display Engineered Wood Bookshelf in Walnut":
+      - /url: /products/display-unit-walnut-finish-fvxxbr33br67262?sku=FVSGBR33BR67262&src=subcat
+      - img "Bookshelf Design Display Engineered Wood Bookshelf in Walnut"
+    - text: Sold Out
+    - link "Display Engineered Wood Bookshelf in Walnut By Gudsmith ₹25,581 ₹17,139 | EMI from ₹823":
+      - /url: /products/display-unit-walnut-finish-fvxxbr33br67262?sku=FVSGBR33BR67262&src=subcat
+    - text: 
+  - listitem:
+    - link "Bookshelf Design Fujiwara Bookshelf/Display Cabinet (75-book capacity) (Amber Walnut Finish)":
+      - /url: /products/fujiwara-display-cabinet?sku=FNSGDR12TK30101&src=subcat
+      - img "Bookshelf Design Fujiwara Bookshelf/Display Cabinet (75-book capacity) (Amber Walnut Finish)"
+    - text: Sold Out
+    - link "Fujiwara Bookshelf/Display Cabinet (75-book capacity) (Amber Walnut Finish) By Urban Ladder ₹56,499 ₹35,029 | EMI from ₹1,682":
+      - /url: /products/fujiwara-display-cabinet?sku=FNSGDR12TK30101&src=subcat
+    - text: 
+- text: + +
+- button "Compare"
+- text: Browse Popular Living Storage Categories
+- list:
+  - listitem:
+    - link "Shoe Racks Shoe Racks 122+ Options starting from ₹649":
+      - /url: /shoe-rack?src=g_footer_interlink
+      - img "Shoe Racks"
+      - text: Shoe Racks 122+ Options starting from ₹649
+  - listitem:
+    - link "TV Units TV Units 160+ Options starting from ₹482":
+      - /url: /tv-units?src=g_footer_interlink
+      - img "TV Units"
+      - text: TV Units 160+ Options starting from ₹482
+  - listitem:
+    - link "Wall Shelves Wall Shelves 172+ Options starting from ₹466":
+      - /url: /wall-shelves?src=g_footer_interlink
+      - img "Wall Shelves"
+      - text: Wall Shelves 172+ Options starting from ₹466
+  - listitem:
+    - link "Showcases Showcases 12+ Options starting from ₹7,515":
+      - /url: /showcase?src=g_footer_interlink
+      - img "Showcases"
+      - text: Showcases 12+ Options starting from ₹7,515
+  - listitem:
+    - link "Prayer Units Prayer Units 41+ Options starting from ₹2,819":
+      - /url: /prayer-units?src=g_footer_interlink
+      - img "Prayer Units"
+      - text: Prayer Units 41+ Options starting from ₹2,819
+  - listitem:
+    - link "Entryway & Foyer Entryway & Foyer 130+ Options starting from ₹649":
+      - /url: /entryway-and-foyer?src=g_footer_interlink
+      - img "Entryway & Foyer"
+      - text: Entryway & Foyer 130+ Options starting from ₹649
+  - listitem:
+    - link "Living Room Sets Living Room Sets 28+ Options starting from ₹4,999":
+      - /url: /living-room-sets?src=g_footer_interlink
+      - img "Living Room Sets"
+      - text: Living Room Sets 28+ Options starting from ₹4,999
+- heading "Bookshelves Price List" [level=2]
+- table:
+  - rowgroup:
+    - row "Product Name Price":
+      - cell "Product Name"
+      - cell "Price"
+  - rowgroup:
+    - row "Babylon Solid Wood Floor/Wall Display Unit (Walnut Finish) ₹3,926":
+      - cell "Babylon Solid Wood Floor/Wall Display Unit (Walnut Finish)":
+        - link "Babylon Solid Wood Floor/Wall Display Unit (Walnut Finish)":
+          - /url: /products/babylon-floor-wall-shelf?src=price-list-widget
+      - cell "₹3,926"
+    - row "Rhodes Folding Book Shelf (Mahogany Finish, Tall Configuration, 60 Book Book Capacity) ₹15,469":
+      - cell "Rhodes Folding Book Shelf (Mahogany Finish, Tall Configuration, 60 Book Book Capacity)":
+        - link "Rhodes Folding Book Shelf (Mahogany Finish, Tall Configuration, 60 Book Book Capacity)":
+          - /url: /products/folding-book-shelf?src=price-list-widget
+      - cell "₹15,469"
+    - row "Iwaki Bookshelf/Display Cabinet With Glass Door (3 Drawer Configuration, 110 Book Book Capacity, Columbian Walnut Finish) ₹23,159":
+      - cell "Iwaki Bookshelf/Display Cabinet With Glass Door (3 Drawer Configuration, 110 Book Book Capacity, Columbian Walnut Finish)":
+        - link "Iwaki Bookshelf/Display Cabinet With Glass Door (3 Drawer Configuration, 110 Book Book Capacity, Columbian Walnut Finish)":
+          - /url: /products/iwaki-bookshelf-with-glass-door?src=price-list-widget
+      - cell "₹23,159"
+    - row "Rhodes Folding Book Shelf (Teak Finish, Tall Configuration, 60 Book Book Capacity) ₹15,469":
+      - cell "Rhodes Folding Book Shelf (Teak Finish, Tall Configuration, 60 Book Book Capacity)":
+        - link "Rhodes Folding Book Shelf (Teak Finish, Tall Configuration, 60 Book Book Capacity)":
+          - /url: /products/folding-book-shelf?src=price-list-widget
+      - cell "₹15,469"
+    - row "Malabar Barrister Bookshelf (60-Book Capacity) (Amber Walnut Finish) ₹32,269":
+      - cell "Malabar Barrister Bookshelf (60-Book Capacity) (Amber Walnut Finish)":
+        - link "Malabar Barrister Bookshelf (60-Book Capacity) (Amber Walnut Finish)":
+          - /url: /products/malabar-barrister-bookshelf?src=price-list-widget
+      - cell "₹32,269"
+    - row "Hayden Display Shelf (35-book capacity) (Classic Walnut Finish) ₹3,449":
+      - cell "Hayden Display Shelf (35-book capacity) (Classic Walnut Finish)":
+        - link "Hayden Display Shelf (35-book capacity) (Classic Walnut Finish)":
+          - /url: /products/hayden-display-shelf?src=price-list-widget
+      - cell "₹3,449"
+    - row "Malabar Barrister Bookshelf (60-Book Capacity) (Mango Mahogany Finish) ₹32,269":
+      - cell "Malabar Barrister Bookshelf (60-Book Capacity) (Mango Mahogany Finish)":
+        - link "Malabar Barrister Bookshelf (60-Book Capacity) (Mango Mahogany Finish)":
+          - /url: /products/malabar-barrister-bookshelf?src=price-list-widget
+      - cell "₹32,269"
+    - row "Tetris Side Bookshelf/Display Unit (Walnut Finish) ₹6,047":
+      - cell "Tetris Side Bookshelf/Display Unit (Walnut Finish)":
+        - link "Tetris Side Bookshelf/Display Unit (Walnut Finish)":
+          - /url: /products/tetris-side-shelf?src=price-list-widget
+      - cell "₹6,047"
+    - row "Ikshita Bookshelf (Black, Melamine Finish) ₹16,376":
+      - cell "Ikshita Bookshelf (Black, Melamine Finish)":
+        - link "Ikshita Bookshelf (Black, Melamine Finish)":
+          - /url: /products/ikshita-bookshelf?src=price-list-widget
+      - cell "₹16,376"
+    - row "danta Bookshelf. (HONEY Finish) ₹17,347":
+      - cell "danta Bookshelf. (HONEY Finish)":
+        - link "danta Bookshelf. (HONEY Finish)":
+          - /url: /products/danta-bookshelf-jjxxcf62br32746?src=price-list-widget
+      - cell "₹17,347"
+    - row "This data was last updated on May 25, 2025":
+      - cell "This data was last updated on May 25, 2025":
+        - text: This data was last updated on
+        - time: May 25, 2025
+- heading "Buy Bookshelf Online At The Most Affordable Price From Urban Ladder" [level=2]
+- paragraph:
+  - text: Urban Ladder is a furniture paradise that offers high-quality bookshelf online at unbelievable prices. Explore our extensive collection of innovative and stylish
+  - link "closed storage bookshelves":
+    - /url: https://www.urbanladder.com/closed-storage-bookshelves
+  - text: that take care of your storage, display, and organizing needs. We have a bookshelf design that caters to different needs, from displaying large book collections to delicate decorative items. Pick a bookshelf style that complements your aesthetic preferences, whether sleek and modern or rustic and charming. We also have a plethora of materials, finishes, and shelving configurations to choose from. Whatever your need and preference, Urban Ladder has a bookcase for everyone. Our bookshelves score high on quality, functionality, aesthetics, and affordability. Our transparent pricing ensures you get the best deal possible. All Urban Ladder Book Shelfs Price are competitively priced and available at different price points. Take home your favorite bookshelf without the worry of a huge financial leap. Keep an eye out for our frequent discounts and deals.
+- 'heading "Urban Ladder Bookshelves: Moden Storage Solutions" [level=2]'
+- list:
+  - listitem: Urban Ladder's bookshelf collection has a variety of shelving configurations. Choose from fixed, adjustable, or combination shelves. Fixed shelves are preferred for their stability while adjustable shelves can accommodate different heights. The other shelving configuration designs on Urban Ladder include corner bookshelves, ladder bookshelves, and modular bookshelves.
+  - listitem:
+    - text: Many Urban Ladder models have a
+    - link "modern bookshelf":
+      - /url: https://www.urbanladder.com/modern-bookshelf
+    - text: design that features additional storage. Built-in cubbies, drawers, cabinets, and hidden compartments organize essentials like electronics, games, toys, and other personal belongings. These bookshelves keep the clutter away while maximizing the functionality of the furniture.
+  - listitem:
+    - text: Choose from a variety of design elements for your bookshelves.
+    - link "Showcase":
+      - /url: https://www.urbanladder.com/showcase
+    - text: furniture with glass doors or panels has a refined aesthetic and is also perfect for displaying delicate items. Compliment the decorative trimming on the panels, baseboards, and crown to match your desired aesthetic. You can keep it simple with sleek hardware or go bold with ornate designs.
+  - listitem: Urban Ladder offers modular and space-saving bookshelves. These are practical furniture pieces that maximize space and utility in compact or multipurpose spaces. Wall-mounted Book Rack is a popular design that utilizes the vertical space in the room. Another versatile design is the grid bookshelf with removable shelves. Explore our website for more innovative bookshelf designs.
+- 'heading "Restack Your Gems: Diverse Bookshelf Designs" [level=2]'
+- list:
+  - listitem:
+    - heading "Corner Bookshelf:" [level=3]
+    - text: The Corner Book Shelf is a great way to maximize space utilization in compact rooms. The corner bookshelf is designed to fit in tight nooks. It makes effective use of the often overlooked areas where traditional bookshelves don’t fit. Despite its compact design, the corner bookshelf offers ample storage space. It comes as wall-mounted and freestanding models.
+- list:
+  - listitem:
+    - heading "Kids Bookshelves:" [level=3]
+    - link "Kids Bookshelves":
+      - /url: https://www.urbanladder.com/kids-bookshelves
+    - text: are tailored to the unique needs of children. These vibrant-colored bookshelves feature playful patterns, fun doodles, and even cartoon characters. Some may even come in fun shapes like cars, trees, or castles. They are designed with safety features like sturdy construction, low height, child-safe materials, and rounded edges. Many models have built-in storage for toys and crafting supplies.
+- list:
+  - listitem:
+    - heading "Wall Mounted Bookshelf:" [level=3]
+    - link "Wall Shelves":
+      - /url: https://www.urbanladder.com/wall-shelves
+    - text: for books are mounted directly on the wall. Their excellent use of the vertical space makes wall-mounted bookshelves an ideal addition to small rooms. They have a sleek and modern appearance that complements most interiors. Their floating appearance adds depth and visual interest to the space.
+- list:
+  - listitem:
+    - heading "Ladder Bookshelf:" [level=3]
+    - text: Ladder bookshelves are unique ways to display your books. Mimicking the appearance of a ladder, the adder bookshelf has a leaning structure with shelves resembling the rungs. The ladder bookshelf is perfect for narrow hallways and small rooms.
+- 'heading "Versatile Bookshelves: Meet All Your Storage Needs" [level=2]'
+- list:
+  - listitem:
+    - heading "Open Bookshelf:" [level=3]
+    - text: If you love an uncluttered and airy decor, open bookshelves fit right in.
+    - link "Open Storage Book Shelves":
+      - /url: https://www.urbanladder.com/open-storage-bookshelf
+    - text: are perfect for displaying your prized possessions, little trinkets, and framed photographs. These serve as the perfect spots to exhibit your books spine-out. They allow easy access to the stored items. Arrange color-coded books on a white bookshelf to complement eclectic rooms. Or, add a hint of green to Scandinavian indoors with potted plants on display.
+- list:
+  - listitem:
+    - heading "Closed Bookshelf:" [level=3]
+    - text: Closed bookshelves feature compartments hidden behind doors or drawers. They are ideal for high-traffic areas and reduce dust accumulation on the stored items.
+    - link "Closed Storage Book Shelves":
+      - /url: https://www.urbanladder.com/closed-storage-bookshelves
+    - text: come with wooden, metal, or glass doors. Use these bookshelves to keep the items away from view. Or, put on display your rare collector's edition books, delicate chinaware, and other items in a glass-doored bookshelf. Add to the charm of a grand library with a classic closed wooden bookcase.
+- list:
+  - listitem:
+    - heading "Floating Bookshelf:" [level=3]
+    - text: Floating bookshelves create striking focal points. They are mounted directly onto the wall. The books and decorative items appear to float on the wall, thanks to the lack of visible hardware like anchors and brackets. They snugly fit in narrow spaces. Common Floating Book Shelf styles include corner and ledge shelves.
+- 'heading "Material Trends: From Wood To Metal" [level=2]'
+- list:
+  - listitem:
+    - heading "Wooden Bookshelf:" [level=3]
+    - link "Solid wood Book Shelves":
+      - /url: https://www.urbanladder.com/solid-wood-bookshelf
+    - text: are typically crafted from oak, walnut, or mahogany. The inherent beauty of the hardwood makes solid wood bookshelves a classic choice. The varied patterns and vivid undertones add warmth and character to the space. Solid wood bookshelves effortlessly complement various home decor, from traditional to modern. They come in a plethora of styles like open, ladder, traditional, and corner units. Wooden bookshelves are stable, durable, and easy to maintain.
+- list:
+  - listitem:
+    - heading "Bamboo Bookshelf:" [level=3]
+    - text: The Bamboo BookShelf has a unique texture that adds a fresh touch to your home decor. It is an excellent way to bring nature indoors. Its sleek and airy appearance is perfect for small spaces. Bambook bookshelf complements a range of decors, particularly contemporary, modern, and eclectic interiors. Its minimalist design is also well-suited for home offices. Bambook bookshelves are strong, affordable, and require minimal care.
+- list:
+  - listitem:
+    - heading "Metal Bookshelf:" [level=3]
+    - text: Metal Bookshelf is generally built using materials like iron or steel. The metal bookshelf is extremely strong and durable, perfect for heavy decorative objects or books. Metal bookshelves have a sleek and raw aesthetic that best suits industrial-edge-inspired aesthetics. They also come in minimalist wireframes and bold geometric designs to suit modern, contemporary, and traditional interiors. These low-maintenance shelves have a timeless appeal.
+- 'heading "Explore Bookshelf Finishes: From Timeless To Trendy" [level=2]'
+- list:
+  - listitem:
+    - heading "Teak Finish Bookshelf:" [level=3]
+    - text: The Teak Finish Bookshelf has a golden brown hue and natural texture. Its warm tones and rich grain patterns instantly elevate the room's ambiance. The teak finish bookshelf is known for its timeless elegance. It adds subtle sophistication to the room. Its versatility in design makes it a popular choice in traditional, bohemian, and mid-century modern homes. Add character to the space by pairing it with earthy colors and organic textures.
+- list:
+  - listitem:
+    - heading "Walnut Finish Bookshelf:" [level=3]
+    - text: The Walnut Finish Bookshelf is marked by distinctive grain patterns and deep, chocolate-brown undertones. The rich-toned walnut bookshelf is perfect for opulent, formal, or traditional spaces. You can also use it in contemporary and eclectic interiors. It pairs exceptionally well with plush textiles and jewel-toned palettes. It is ideal for formal libraries, large dining rooms, and executive offices.
+- list:
+  - listitem:
+    - heading "Mahogany Finish Bookshelf:" [level=3]
+    - text: The Mahogany Finish Bookshelf is known for its rich, brown hues. The shades range from deep red to almost black browns. Its fine grains and occasional swirls and waves make for a striking focal point. The mahogany bookshelf has a sophistication that is reminiscent of a bygone era. Its lustrous texture best suits formal and classic decors. A shelf with intricate carvings, decorative embellishments, and detailing adds grandeur to the space.
+- heading "Find the Perfect Mount Type for Your Space" [level=2]
+- paragraph: "Choosing the right mounting style can enhance both the functionality and appearance of your furniture. Here’s a look at the two primary options:"
+- list:
+  - listitem:
+    - heading "Free Standing:" [level=3]
+    - paragraph: A free-standing unit offers flexibility and convenience, as it doesn't require installation on a wall. These pieces are easy to move around, making them ideal for renters or those who like to rearrange their space frequently. They provide stability while allowing for effortless placement in any room.
+  - listitem:
+    - heading "Wall Mounted:" [level=3]
+    - paragraph: Wall-mounted options are perfect for a sleek and space-saving design. By securing directly to the wall, they create a clean, modern look while maximizing floor space. This type of mount is great for a minimalist aesthetic and ensures stability, especially in compact areas.
+    - heading "Essential Factors To Consider Before Buying A Bookshelf" [level=2]
+    - list:
+      - listitem:
+        - heading "Quality:" [level=3]
+        - text: Quality is the paramount factor to consider when buying a bookshelf. Assess if the bookshelf is made from quality materials. Opt for durable materials like solid wood, high-quality engineered wood, bamboo, or metal. Evaluate if the construction is sturdy with reinforced joints and corners. Look for smooth and scratch-resistant finishes.
+    - list:
+      - listitem:
+        - heading "Size And Scale:" [level=3]
+        - text: Consider the size and scale of the bookshelf before buying it. Measure the intended space for the furniture. Check if the wall and floor space ensure a fit without restricting movement or the placement of other furniture. Other factors include the ceiling height, space for opening drawers or doors, and the presence of doors or windows.
+    - list:
+      - listitem:
+        - heading "Functionality:" [level=3]
+        - text: Determine how you want to use the bookshelf - for sorting and displaying books, decorative objects, rare collections, or an assortment of these. Tall or wide bookshelves with spacious shelves are ideal for large book collections. Consider glass doors for decorative displays. You can also pick designs with hidden storage and built-in lighting.
+    - list:
+      - listitem:
+        - heading "Style And Aesthetics:" [level=3]
+        - text: Pick a bookshelf style that complements the aesthetics of the room.
+        - link "open and closed storage bookhshelves":
+          - /url: https://www.urbanladder.com/open-and-closed-storage-bookshelves
+        - text: come in a wide range of styles to suit various decor preferences. Choose a finish, color, paneling, detailing, and hardware that enhances the visual appeal of the space. You can also experiment with it to add character and interest to the room.
+    - heading "Enjoy The Benefits Of Having A Bookshelf In Your Home" [level=2]
+    - list:
+      - listitem: A bookshelf is a dedicated space to hold your favorite books, magazines, and other reading essentials. A bookshelf ensures you no longer spend hours finding your hidden comic or the prized autobiography.
+      - listitem: Display your love for all things reading with a bookshelf. A bookshelf instantly increases the aesthetics of the room. What better way to add a twist to your room while also reflecting your interests?
+      - listitem: A bookshelf is not just a piece of furniture for your books. It also holds decorative items like pots, vases, sculptures, and even plants. Mix and match the items on the bookshelf for versatile functionality and display.
+    - heading "Care And Maintenance Tips For Long-Lasting Bookshelves" [level=2]:
+      - text: Care And Maintenance Tips For Long-Lasting Bookshelves
+      - strong
+    - list:
+      - listitem: Dust accumulation on your bookshelf affects the appearance of both the furniture and the books stored in it. Regularly dust the furniture with a dry cloth or a vacuum cleaner with a brush attached.
+      - listitem: Dedicate time to proper organization and even weight distribution of the items stored. Place heavier objects on the bottom. Avoid overcrowding the shelf. This can cause tipping of the furniture.
+      - listitem: Place your bookshelf away from direct sunlight and excessive moisture. This can lead to fading or wrapping of the furniture and even the items stored. Similarly, avoid positioning the bookshelf near sources of heat.
+    - heading "Why Choose Urban Ladder To Buy The BookShelf For Your Bed Room" [level=2]
+    - paragraph:
+      - text: Urban Ladder is India's go-to destination for fulfilling home furnishing needs. Our expansive range of furniture includes the much-adored bookshelf. Explore our extensive collection of captivating bookshelves and
+      - link "bookcase":
+        - /url: https://www.urbanladder.com/bookcase
+      - text: designs that blend functionality and style. The range also offers diverse sizes, styles, designs, storage, material, and finish options to cater to every need and preference. Each product in the selection is made from premium materials and an eye for detail. It passes strict quality control before reaching your home. This way, our bookshelves ensure lasting durability and reliability. Hop on to our website today and make your choice. Get your investment’s worth from Urban Ladder.
+    - heading "FAQs" [level=2]:
+      - strong: FAQs
+    - list:
+      - listitem:
+        - strong: Q. How Do I Choose The Right Bookshelf For My Space?
+        - text: Begin by assessing the available space in the room. Measure the wall and floor space and pick a bookshelf that fits proportionally. Consider how many books you want to store and choose a bookshelf that meets your storage requirements. Select a bookshelf style that compliments the overall room decor.
+    - list:
+      - listitem:
+        - strong: Q. How Do I Ensure The Stability And Safety Of A Bookshelf?
+        - text: Bookshelves constructed from sturdy materials like solid wood, bamboo, and metal are stable and safe. Check if the construction has reinforced joints. Use appropriate hardware to secure the bookshelf. For top-heavy or tall bookshelves, additional mounting hardware may be required. Ensure even weight distribution while arranging your books. Strictly adhere to the weight limits.
+- contentinfo:
+  - text: "The Company:"
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: /about-urban-ladder?src=g_footer
+    - listitem:
+      - link "Help":
+        - /url: /help?src=g_footer
+    - listitem:
+      - link "Blog":
+        - /url: /blog?src=g_footer
+    - listitem:
+      - link "Inside UL":
+        - /url: /inside-ul?src=g_footer
+  - list:
+    - listitem:
+      - link "Careers":
+        - /url: /careers?src=g_footer
+    - listitem:
+      - link "Press":
+        - /url: /press-coverage?src=g_footer
+    - listitem:
+      - link "Team":
+        - /url: https://www.linkedin.com/company/2482371/life/?src=g_footer
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /privacy-policy?src=g_footer
+  - text: "More Information:"
+  - list:
+    - listitem:
+      - link "Fees and Payment":
+        - /url: /security-payments?src=g_footer
+    - listitem:
+      - link "Shipping & Delivery":
+        - /url: /shipping-delivery?src=g_footer
+    - listitem:
+      - link "Terms and Conditions":
+        - /url: /terms-of-use?src=g_footer
+    - listitem:
+      - link "Warranty, Return and Refund":
+        - /url: /terms-of-offer-for-sale?src=g_footer
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: /help/contact-us?src=g_footer
+    - listitem:
+      - link "Visit Us":
+        - /url: /furniture-stores?src=g_footer
+    - listitem:
+      - link "Buy In Bulk":
+        - /url: /buy-in-bulk?src=g_footer
+  - text: Explore More
+  - list:
+    - listitem:
+      - link "Refer & Earn":
+        - /url: /refer_and_earn?src=g_footer
+  - text: Address
+  - list:
+    - listitem: Reliance Retail Limited, 3rd Floor, Court House, Lokmanya Tilak Marg, Dhobi Talao, Mumbai- 400 002, Maharashtra, India
+    - listitem: "CIN: U01100MH1999PLC120563"
+  - text: "Connect With Us:"
+  - list:
+    - listitem:
+      - link " +91 80698 07777":
+        - /url: tel:+918069807777
+    - listitem:
+      - link "":
+        - /url: mailto:hello@urbanladder.com
+    - listitem:
+      - link "":
+        - /url: https://facebook.com/urbanladder
+    - listitem:
+      - link "":
+        - /url: https://twitter.com/UrbanLadder
+    - listitem:
+      - link "":
+        - /url: https://www.pinterest.com/urbanladder/
+    - listitem:
+      - link "":
+        - /url: https://youtube.com/user/urbanladder
+    - listitem:
+      - link "":
+        - /url: https://instagram.com/urbanladder/
+    - listitem:
+      - link "":
+        - /url: https://in.linkedin.com/company/urban-ladder
+  - text: "Download App:"
+  - link "Download Urban Ladder App from Apple Store":
+    - /url: https://itunes.apple.com/us/app/urban-ladder/id959886087
+    - img "Download Urban Ladder App from Apple Store"
+  - link "Download Urban Ladder App from Playstore":
+    - /url: https://play.google.com/store/apps/details?id=com.urbanladder.catalog
+    - img "Download Urban Ladder App from Playstore"
+  - text: "Popular Furniture Categories:"
+  - list:
+    - listitem:
+      - link "Bed":
+        - /url: /bed
+    - text: ","
+    - listitem:
+      - link "Beds By Design":
+        - /url: /all-beds
+    - text: ","
+    - listitem:
+      - link "Sofa Set":
+        - /url: /sofa-set
+    - text: ","
+    - listitem:
+      - link "Wooden Sofa":
+        - /url: /wooden-sofas
+    - text: ","
+    - listitem:
+      - link "Sofas By Design":
+        - /url: /sofa
+    - text: ","
+    - listitem:
+      - link "Sofa Cum Bed":
+        - /url: /sofa-cum-bed
+    - text: ","
+    - listitem:
+      - link "Double Bed":
+        - /url: /double-beds
+    - text: ","
+    - listitem:
+      - link "Single Bed":
+        - /url: /single-beds
+    - text: ","
+    - listitem:
+      - link "Queen Size Bed":
+        - /url: /queen-size-bed
+    - text: ","
+    - listitem:
+      - link "King Size Bed":
+        - /url: /king-size-bed
+    - text: ","
+    - listitem:
+      - link "Chair":
+        - /url: /chair
+    - text: ","
+    - listitem:
+      - link "Wooden Table":
+        - /url: /tables
+    - text: ","
+    - listitem:
+      - link "Study Table":
+        - /url: /study-table
+    - text: ","
+    - listitem:
+      - link "Study Chair":
+        - /url: /study-chair
+    - text: ","
+    - listitem:
+      - link "Wardrobe":
+        - /url: /wardrobes
+    - text: ","
+    - listitem:
+      - link "Chest of Drawers":
+        - /url: /chest-of-drawers
+    - text: ","
+    - listitem:
+      - link "Futon":
+        - /url: /futon
+    - text: ","
+    - listitem:
+      - link "Loveseat":
+        - /url: /loveseats
+    - text: ","
+    - listitem:
+      - link "Dining Table Set":
+        - /url: /dining-table-set
+    - text: ","
+    - listitem:
+      - link "Dining Chair":
+        - /url: /dining-chairs
+    - text: ","
+    - listitem:
+      - link "Bookshelves":
+        - /url: /bookshelf
+    - text: ","
+    - listitem:
+      - link "Shoe Rack":
+        - /url: /shoe-rack
+    - text: ","
+    - listitem:
+      - link "TV Units":
+        - /url: /tv-units
+    - text: ","
+    - listitem:
+      - link "Recliners":
+        - /url: /recliners
+    - text: ","
+    - listitem:
+      - link "Furniture":
+        - /url: /furniture
+    - text: ","
+    - listitem:
+      - link "Office Furniture":
+        - /url: /office-furniture
+    - text: ","
+    - listitem:
+      - link "Office Table":
+        - /url: /office-tables
+    - text: ","
+    - listitem:
+      - link "Office Chair":
+        - /url: /office-chairs
+    - text: ","
+    - listitem:
+      - link "2 Seater Sofa":
+        - /url: /two-seater-sofas
+    - text: ","
+    - listitem:
+      - link "TV Cupboard":
+        - /url: /tv-cupboard
+    - text: ","
+    - listitem:
+      - link "TV Showcase":
+        - /url: /tv-showcase
+    - text: ","
+    - listitem:
+      - link "TV Stand":
+        - /url: /tv-stand
+    - text: ","
+    - listitem:
+      - link "Center Table":
+        - /url: /center-tables
+  - text: "Shop Furniture By Room:"
+  - list:
+    - listitem:
+      - link "Living Room Furniture":
+        - /url: /living-room-furniture
+    - text: ","
+    - listitem:
+      - link "Bedroom Furniture":
+        - /url: /bedroom-furniture
+    - text: ","
+    - listitem:
+      - link "Dining Room Furniture":
+        - /url: /dining-furniture
+    - text: ","
+    - listitem:
+      - link "Study Room Furniture":
+        - /url: /study
+    - text: ","
+    - listitem:
+      - link "Bar Furniture":
+        - /url: /bar-furniture
+    - text: ","
+    - listitem:
+      - link "Balcony Furniture":
+        - /url: /balcony
+  - text: "Popular Decor Categories:"
+  - list:
+    - listitem:
+      - link "Home Decor":
+        - /url: /home-decor
+    - text: ","
+    - listitem:
+      - link "Carpets":
+        - /url: /carpet
+    - text: ","
+    - listitem:
+      - link "Mirrors":
+        - /url: /mirrors
+    - text: ","
+    - listitem:
+      - link "Study Lamps":
+        - /url: /study-lamps
+    - text: ","
+    - listitem:
+      - link "Table Lamps":
+        - /url: /table-lamps
+    - text: ","
+    - listitem:
+      - link "Bed Sheets":
+        - /url: /bedsheets
+    - text: ","
+    - listitem:
+      - link "Floor Lamps":
+        - /url: /floor-lamps
+    - text: ","
+    - listitem:
+      - link "Wall Lights":
+        - /url: /wall-lights
+    - text: ","
+    - listitem:
+      - link "Lighting":
+        - /url: /lighting
+    - text: ","
+    - listitem:
+      - link "Ceiling Lights":
+        - /url: /ceiling-lights
+    - text: ","
+    - listitem:
+      - link "Quilt":
+        - /url: /quilt
+    - text: ","
+    - listitem:
+      - link "Wall Decor":
+        - /url: /wall-decors
+    - text: ","
+    - listitem:
+      - link "Wall Mirror":
+        - /url: /wall-mirrors
+    - text: ","
+    - listitem:
+      - link "Table Decor":
+        - /url: /table-furnishing
+    - text: ","
+    - listitem:
+      - link "Table Cover":
+        - /url: /table-covers
+    - text: ","
+    - listitem:
+      - link "Table Napkin":
+        - /url: /table-napkin
+    - text: ","
+    - listitem:
+      - link "Table Mat":
+        - /url: /table-mat
+    - text: ","
+    - listitem:
+      - link "Cushion Cover":
+        - /url: /cushion-cover
+    - text: ","
+    - listitem:
+      - link "Table Runners":
+        - /url: /table-runners
+    - text: ","
+    - listitem:
+      - link "Home Furnishing":
+        - /url: /home-furnishing
+    - text: ","
+    - listitem:
+      - link "Wall Art":
+        - /url: /wall-art
+    - text: ","
+    - listitem:
+      - link "Showpiece":
+        - /url: /showpieces
+    - text: ","
+    - listitem:
+      - link "Artificial Plants":
+        - /url: /artificial-plants
+    - text: ","
+    - listitem:
+      - link "Photo Frame":
+        - /url: /photo-frames
+    - text: ","
+    - listitem:
+      - link "Candle Stand":
+        - /url: /candle-stand
+    - text: ","
+    - listitem:
+      - link "Clocks":
+        - /url: /clocks
+    - text: ","
+    - listitem:
+      - link "Wall Clocks":
+        - /url: /wall-clocks
+    - text: ","
+    - listitem:
+      - link "Festive Lights":
+        - /url: /festive-lights
+    - text: ","
+    - listitem:
+      - link "Candles":
+        - /url: /candles
+    - text: ","
+    - listitem:
+      - link "Bath Mat":
+        - /url: /bath-mats
+    - text: ","
+    - listitem:
+      - link "Vases":
+        - /url: /vases
+    - text: ","
+    - listitem:
+      - link "Flower Vase":
+        - /url: /flower-vase
+    - text: ","
+    - listitem:
+      - link "Bathroom Accessories":
+        - /url: /bathroom-accessories
+    - text: ","
+    - listitem:
+      - link "Bathroom Mirrors":
+        - /url: /bathroom-mirrors
+  - text: "Popular Mattress Categories:"
+  - list:
+    - listitem:
+      - link "Mattresses":
+        - /url: /mattresses
+    - text: ","
+    - listitem:
+      - link "Single Bed Mattresses":
+        - /url: " /single-bed-mattress"
+    - text: ","
+    - listitem:
+      - link "Double Bed Mattresses":
+        - /url: /double-bed-mattress
+    - text: ","
+    - listitem:
+      - link "King Size Mattresses":
+        - /url: /king-size-mattress
+    - text: ","
+    - listitem:
+      - link "Queen Size Mattresses":
+        - /url: /queen-size-mattress
+    - text: ","
+    - listitem:
+      - link "Foam Mattress":
+        - /url: /foam-mattress
+    - text: ","
+    - listitem:
+      - link "Coir Mattress":
+        - /url: /coir-mattress
+    - text: ","
+    - listitem:
+      - link "Latex Mattress":
+        - /url: /latex-mattress
+    - text: ","
+    - listitem:
+      - link "Spring Mattress":
+        - /url: /spring-mattress
+    - text: ","
+    - listitem:
+      - link "Orthopaedic Mattress":
+        - /url: /orthopaedic-mattress
+  - text: "Popular Tableware Categories:"
+  - list:
+    - listitem:
+      - link "Shot Glass":
+        - /url: /shot-glass
+    - text: ","
+    - listitem:
+      - link "Dinner Plates":
+        - /url: /dinner-plates
+    - text: ","
+    - listitem:
+      - link "Baking Tray":
+        - /url: /baking-tray
+    - text: ","
+    - listitem:
+      - link "Forks":
+        - /url: /fork
+    - text: ","
+    - listitem:
+      - link "Dinner Set":
+        - /url: /dinner-set
+    - text: ","
+    - listitem:
+      - link "Tumbler":
+        - /url: /tumbler
+    - text: ","
+    - listitem:
+      - link "Drinking Glass":
+        - /url: /drinking-glass
+    - text: ","
+    - listitem:
+      - link "Cutlery Holder":
+        - /url: /cutlery-holder
+    - text: ","
+    - listitem:
+      - link "Tissue Holder":
+        - /url: /tissue-holder
+    - text: ","
+    - listitem:
+      - link "Bottle Opener":
+        - /url: /bottle-opener
+    - text: ","
+    - listitem:
+      - link "Spoons":
+        - /url: /spoons
+    - text: ","
+    - listitem:
+      - link "Whiskey Glass":
+        - /url: /whiskey-glass
+    - text: ","
+    - listitem:
+      - link "Kitchen Organizers":
+        - /url: /kitchen-organizers
+    - text: ","
+    - listitem:
+      - link "Hot Pot":
+        - /url: /hot-pot
+    - text: ","
+    - listitem:
+      - link "Chef's Cap":
+        - /url: /chefs-cap
+    - text: ","
+    - listitem:
+      - link "Glass Jars":
+        - /url: /glass-jars
+    - text: ","
+    - listitem:
+      - link "Kitchen Gloves":
+        - /url: /kitchen-gloves
+    - text: ","
+    - listitem:
+      - link "Kitchen Storage Containers":
+        - /url: /kitchen-storage-containers
+    - text: ","
+    - listitem:
+      - link "Bar Tools":
+        - /url: /bar-tools
+    - text: ","
+    - listitem:
+      - link "Masala Box":
+        - /url: /masala-box
+    - text: ","
+    - listitem:
+      - link "Glass Bottles":
+        - /url: /glass-bottles
+    - text: ","
+    - listitem:
+      - link "Coasters":
+        - /url: /coasters
+    - text: ","
+    - listitem:
+      - link "Cutlery Set":
+        - /url: /cutlery-set
+    - text: ","
+    - listitem:
+      - link "Knives Set":
+        - /url: /knives-set
+    - text: ","
+    - listitem:
+      - link "Oven Gloves":
+        - /url: /oven-gloves
+    - text: ","
+    - listitem:
+      - link "Aprons":
+        - /url: /aprons
+    - text: ","
+    - listitem:
+      - link "Cake Stand":
+        - /url: /cake-stand
+    - text: ","
+    - listitem:
+      - link "Fruit Basket":
+        - /url: /fruit-basket
+    - text: ","
+    - listitem:
+      - link "Spice Box":
+        - /url: /spice-box
+    - text: ","
+    - listitem:
+      - link "Beer Glass":
+        - /url: /beer-glass
+    - text: ","
+    - listitem:
+      - link "Bowls":
+        - /url: /bowls
+    - text: ","
+    - listitem:
+      - link "Oil Dispenser":
+        - /url: /oil-dispenser
+    - text: ","
+    - listitem:
+      - link "Housewarming Gifts":
+        - /url: /housewarming-gifts
+  - text: "Delivering in:"
+  - list:
+    - listitem: Aanamalai
+    - text: ","
+    - listitem: Agra
+    - text: ","
+    - listitem: Ahmedabad
+    - text: ","
+    - listitem: Ajmer
+    - text: ","
+    - listitem: Alappuzha
+    - text: ","
+    - listitem: Aler
+    - text: ","
+    - listitem: Alibaug
+    - text: ","
+    - listitem: Aligarh
+    - text: ","
+    - listitem: Alleppey
+    - text: ","
+    - listitem: Alwar
+    - text: ","
+    - listitem: Alwaye
+    - text: ","
+    - listitem: Amaravathi
+    - text: ","
+    - listitem: Ambala
+    - text: ","
+    - listitem: Ambarnath
+    - text: ","
+    - listitem: Amdapur
+    - text: ","
+    - listitem: Amtala
+    - text: ","
+    - listitem: Anakapalle
+    - text: ","
+    - listitem: Anikorai
+    - text: ","
+    - listitem: Arakkonam
+    - text: ","
+    - listitem: Arnala
+    - text: ","
+    - listitem: Arutla
+  - link "... More":
+    - /url: /locations?src=footer
+  - text: "We Accept:"
+  - list:
+    - listitem:
+      - img "Visa color"
+      - img "Mastercard color"
+      - img "Maestro color"
+      - img "Amex color"
+      - img "Rupay color"
+      - img "Bhim upi color"
+  - text: © 2012-2025 Urban Ladder
+- img
+- iframe
+- iframe
+```
+
+# Test source
+
+```ts
+   1 | import { expect } from "@playwright/test";
+   2 | exports.navBarMenu = class navBarMenu {
+   3 |     constructor(page) {
+   4 |         this.page = page;
+   5 |         this.menuItems;
+   6 |
+   7 |     }
+   8 |
+   9 |     async getValueOfMenu(value) {
+  10 |         try {
+  11 |             await this.page.locator(`//div[@id='topnav_wrapper']//li//span[normalize-space(text())='${value}']`).hover();
+> 12 |             await expect(this.page.locator("//span[@class='topnav_itemname active']").textContent()).toContainText(value)
+     |                                                                                       ^ Error: locator.textContent: Test ended.
+  13 |             this.menuItems = await this.page.locator(`(//div[@id='topnav_wrapper']//li//span[normalize-space(text())='${value}'])/following-sibling::div//ul//li`).evaluateAll(items =>
+  14 |                 items.map(item => {
+  15 |                     const mainItem = item.querySelector('.taxontype a') ? item.querySelector('.taxontype a').textContent.trim() : item.textContent.trim();
+  16 |                     const subItems = Array.from(item.querySelectorAll('ul.taxonslist li.subnav_item')).map(subItem => subItem.textContent.trim());
+  17 |                     return { mainItem, subItems };
+  18 |                 }).filter(item => item.subItems.length > 0)
+  19 |             );
+  20 |         } catch (error) {
+  21 |             console.log(error);
+  22 |         }
+  23 |     }
+  24 |
+  25 | }
+```

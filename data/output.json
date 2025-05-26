@@ -1,0 +1,59 @@
+{
+  "menuItems": [
+    {
+      "mainItem": "Living Storage",
+      "subItems": [
+        "Shoe Racks",
+        "Bookshelves",
+        "TV Units",
+        "Wall Shelves",
+        "Showcases",
+        "Prayer Units",
+        "Entryway & Foyer",
+        "Living Room Sets"
+      ]
+    },
+    {
+      "mainItem": "Bedroom Storage",
+      "subItems": [
+        "Cupboards",
+        "Chest of Drawers",
+        "Bedside Tables",
+        "Dressers & Mirrors",
+        "Storage Chests",
+        "Modular Wardrobes"
+      ]
+    },
+    {
+      "mainItem": "Dining Storage",
+      "subItems": [
+        "Crockery Units",
+        "Kitchen Cabinets & Racks",
+        "Bar Cabinets",
+        "Modular-Kitchen"
+      ]
+    },
+    {
+      "mainItem": "Kids Storage",
+      "subItems": [
+        "Kids Wardrobes",
+        "Kids Bedside Tables",
+        "Kids Storage Cabinets",
+        "Kids Chest of Drawers",
+        "Kids Bookshelves"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "Name": "Hubert 6 Door Kitchen Display Cabinet ",
+      "Price": "₹16,800"
+    },
+    {
+      "Name": "Murano Solid Wood Bookshelf/Display Unit ",
+      "Price": "₹27,429"
+    }
+  ],
+  "emailErrors": "Please enter a valid email address.",
+  "pinErrors": "Please enter a valid pincode"
+}

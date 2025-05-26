@@ -1,0 +1,138 @@
+ExpectError: expect(received).toContain(expected) // indexOf
+
+Expected substring: "Bookshelves"
+Received string:    "https://www.urbanladder.com/bookshelf?src=explore_categories"
+    at productSearch.selectProductType (C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\pages\porductSearch.js:37:43)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\tests\urbanLader.spec.js:22:5)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\workerMain.js:304:9)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\testInfo.js:277:11)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\workerMain.js:302:7) {
+  matcherResult: {
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoContain\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // indexOf\x1B[22m\n' +
+      '\n' +
+      'Expected substring: \x1B[32m"Bookshelves"\x1B[39m\n' +
+      'Received string:    \x1B[31m"https://www.urbanladder.com/bookshelf?src=explore_categories"\x1B[39m',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@13',
+    category: 'expect',
+    title: 'expect.toContain',
+    params: { expected: 'Bookshelves' },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\pages\\porductSearch.js',
+      line: 37,
+      column: 43,
+      function: 'productSearch.selectProductType'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@13'
+    },
+    complete: [Function: complete],
+    endWallTime: 1748234686191,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoContain\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // indexOf\x1B[22m\n' +
+        '\n' +
+        'Expected substring: \x1B[32m"Bookshelves"\x1B[39m\n' +
+        'Received string:    \x1B[31m"https://www.urbanladder.com/bookshelf?src=explore_categories"\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoContain\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // indexOf\x1B[22m\n' +
+        '\n' +
+        'Expected substring: \x1B[32m"Bookshelves"\x1B[39m\n' +
+        'Received string:    \x1B[31m"https://www.urbanladder.com/bookshelf?src=explore_categories"\x1B[39m\n' +
+        '    at productSearch.selectProductType (C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\pages\\porductSearch.js:37:43)\n' +
+        '    at C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\tests\\urbanLader.spec.js:22:5)\n' +
+        '    at C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\node_modules\\playwright\\lib\\worker\\workerMain.js:304:9)\n' +
+        '    at C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\node_modules\\playwright\\lib\\worker\\testInfo.js:277:11)\n' +
+        '    at C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\node_modules\\playwright\\lib\\worker\\workerMain.js:302:7)',
+      cause: undefined
+    }
+  }
+}
+ExpectError: Timed out 5000ms waiting for expect(locator).toContainText(expected)
+
+Locator: locator('//span[@class=\'topnav_itemname active\']')
+Expected string: "Storage Furniture"
+Received: <element(s) not found>
+Call log:
+  - expect.toContainText with timeout 5000ms
+  - waiting for locator('//span[@class=\'topnav_itemname active\']')
+
+    at navBarMenu.getValueOfMenu (C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\pages\navBarMenu.js:12:88)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\tests\urbanLader.spec.js:29:5)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\workerMain.js:304:9)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\testInfo.js:277:11)
+    at C:\Users\2397970\Downloads\HACKATHON (1)\HACKATHON\node_modules\playwright\lib\worker\workerMain.js:302:7) {
+  matcherResult: {
+    name: 'toContainText',
+    expected: 'Storage Furniture',
+    message: '\x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+      '\n' +
+      "Locator: locator('//span[@class=\\'topnav_itemname active\\']')\n" +
+      'Expected string: \x1B[32m"Storage Furniture"\x1B[39m\n' +
+      'Received: <element(s) not found>\n' +
+      'Call log:\n' +
+      '\x1B[2m  - expect.toContainText with timeout 5000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for locator('//span[@class=\\'topnav_itemname active\\']')\x1B[22m\n",
+    pass: false,
+    actual: '<element(s) not found>',
+    log: [
+      '  - expect.toContainText with timeout 5000ms',
+      "  - waiting for locator('//span[@class=\\'topnav_itemname active\\']')"
+    ],
+    timeout: 5000
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@24',
+    category: 'expect',
+    title: 'expect.toContainText',
+    params: { expected: 'Storage Furniture' },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\pages\\navBarMenu.js',
+      line: 12,
+      column: 88,
+      function: 'navBarMenu.getValueOfMenu'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@24'
+    },
+    complete: [Function: complete],
+    endWallTime: 1748234697598,
+    error: {
+      message: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator('//span[@class=\\'topnav_itemname active\\']')\n" +
+        'Expected string: \x1B[32m"Storage Furniture"\x1B[39m\n' +
+        'Received: <element(s) not found>\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toContainText with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('//span[@class=\\'topnav_itemname active\\']')\x1B[22m\n",
+      stack: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator('//span[@class=\\'topnav_itemname active\\']')\n" +
+        'Expected string: \x1B[32m"Storage Furniture"\x1B[39m\n' +
+        'Received: <element(s) not found>\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toContainText with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('//span[@class=\\'topnav_itemname active\\']')\x1B[22m\n" +
+        '\n' +
+        '    at navBarMenu.getValueOfMenu (C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\pages\\navBarMenu.js:12:88)\n' +
+        '    at C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\tests\\urbanLader.spec.js:29:5)\n' +
+        '    at C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\node_modules\\playwright\\lib\\worker\\workerMain.js:304:9)\n' +
+        '    at C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\node_modules\\playwright\\lib\\worker\\testInfo.js:277:11)\n' +
+        '    at C:\\Users\\2397970\\Downloads\\HACKATHON (1)\\HACKATHON\\node_modules\\playwright\\lib\\worker\\workerMain.js:302:7)',
+      cause: undefined
+    }
+  }
+}
