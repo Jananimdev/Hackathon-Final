@@ -1,0 +1,231 @@
+ExpectError: Timed out 5000ms waiting for expect(locator).toHaveTitle(expected)
+
+Locator: locator(':root')
+Expected string: "harini"
+Received string: "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"
+Call log:
+  - expect.toHaveTitle with timeout 5000ms
+  - waiting for locator(':root')
+    8 × locator resolved to <html lang="en">…</html>
+      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"
+
+    at productSearch.loadURL (C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\pages\porductSearch.js:15:37)
+    at C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\tests\urbanLader.spec.js:20:5 {
+  matcherResult: {
+    name: 'toHaveTitle',
+    expected: 'harini',
+    message: '\x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveTitle\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+      '\n' +
+      "Locator: locator(':root')\n" +
+      'Expected string: \x1B[32m"harini"\x1B[39m\n' +
+      'Received string: \x1B[31m"Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[39m\n' +
+      'Call log:\n' +
+      '\x1B[2m  - expect.toHaveTitle with timeout 5000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for locator(':root')\x1B[22m\n" +
+      '\x1B[2m    8 × locator resolved to <html lang="en">…</html>\x1B[22m\n' +
+      '\x1B[2m      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[22m\n',
+    pass: false,
+    actual: 'Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder',
+    log: [
+      '  - expect.toHaveTitle with timeout 5000ms',
+      "  - waiting for locator(':root')",
+      '    8 × locator resolved to <html lang="en">…</html>',
+      '      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"'
+    ],
+    timeout: 5000
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@9',
+    category: 'expect',
+    title: 'expect.toHaveTitle',
+    params: { expected: 'harini' },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\porductSearch.js',
+      line: 15,
+      column: 37,
+      function: 'productSearch.loadURL'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@9'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747913509564,
+    error: {
+      message: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveTitle\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator(':root')\n" +
+        'Expected string: \x1B[32m"harini"\x1B[39m\n' +
+        'Received string: \x1B[31m"Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[39m\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toHaveTitle with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator(':root')\x1B[22m\n" +
+        '\x1B[2m    8 × locator resolved to <html lang="en">…</html>\x1B[22m\n' +
+        '\x1B[2m      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[22m\n',
+      stack: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoHaveTitle\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator(':root')\n" +
+        'Expected string: \x1B[32m"harini"\x1B[39m\n' +
+        'Received string: \x1B[31m"Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[39m\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toHaveTitle with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator(':root')\x1B[22m\n" +
+        '\x1B[2m    8 × locator resolved to <html lang="en">…</html>\x1B[22m\n' +
+        '\x1B[2m      - unexpected value "Buy Furniture Online: Upto 70% off in India at Best Prices for your Home - Urban Ladder"\x1B[22m\n' +
+        '\n' +
+        '    at productSearch.loadURL (C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\porductSearch.js:15:37)\n' +
+        '    at C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\tests\\urbanLader.spec.js:20:5',
+      cause: undefined
+    }
+  }
+}
+page.click: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Windows\system32\config\systemprofile\AppData\Local\ms-playwright\chromium-1169\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=C:\Windows\TEMP\playwright_chromiumdev_profile-LmuohS --remote-debugging-pipe --no-startup-window
+<launched> pid=20004
+[pid=20004][err] [20004:2768:0522/170142.156:ERROR:gpu\ipc\client\command_buffer_proxy_impl.cc:327] GPU state invalid after WaitForGetOffsetInRange.
+[pid=20004][err] [20004:2768:0522/170142.156:ERROR:gpu\ipc\client\command_buffer_proxy_impl.cc:327] GPU state invalid after WaitForGetOffsetInRange.
+[pid=20004][err] [20004:2768:0522/170142.171:ERROR:content\browser\gpu\gpu_process_host.cc:956] GPU process exited unexpectedly: exit_code=34
+[pid=20004][err] [20004:2768:0522/170441.974:ERROR:services\on_device_model\public\cpp\service_client.cc:36] Unexpected on_device_model service disconnect: The device's GPU is not supported.
+Call log:
+  - waiting for locator('//button[normalize-space(text())=\'Add to Cart\']')
+    - locator resolved to 2 elements. Proceeding with the first one: <button name="button" type="submit" data-gaclick="1" data-id="314152" data-gaaction="clicked" id="add-to-cart-button" data-event="add_to_cart" data-gacategory="product" data-galabel="add to cart" data-gausetimespent="true" data-sku="FNSGBR12AM16362" data-variantname="(Amber Walnut Finish)" class="primary action-button  add-to-cart">Add to Cart↵</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    453 × waiting for element to be visible, enabled and stable
+        - element is not visible
+      - retrying click action
+        - waiting 500ms
+
+    at cartPage.addToCart (C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\pages\cartPage.js:10:29)
+    at C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\tests\urbanLader.spec.js:36:16 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@34',
+    location: {
+      file: 'C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js',
+      line: 10,
+      column: 29,
+      function: 'cartPage.addToCart'
+    },
+    category: 'pw:api',
+    title: "page.click(//button[normalize-space(text())='Add to Cart'])",
+    apiName: 'page.click',
+    params: { selector: "//button[normalize-space(text())='Add to Cart']" },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@34'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747913763521,
+    error: {
+      message: 'Error: page.click: Target page, context or browser has been closed\n' +
+        'Browser logs:\n' +
+        '\n' +
+        '<launching> C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\chromium-1169\\chrome-win\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=C:\\Windows\\TEMP\\playwright_chromiumdev_profile-LmuohS --remote-debugging-pipe --no-startup-window\n' +
+        '<launched> pid=20004\n' +
+        '[pid=20004][err] [20004:2768:0522/170142.156:ERROR:gpu\\ipc\\client\\command_buffer_proxy_impl.cc:327] GPU state invalid after WaitForGetOffsetInRange.\n' +
+        '[pid=20004][err] [20004:2768:0522/170142.156:ERROR:gpu\\ipc\\client\\command_buffer_proxy_impl.cc:327] GPU state invalid after WaitForGetOffsetInRange.\n' +
+        '[pid=20004][err] [20004:2768:0522/170142.171:ERROR:content\\browser\\gpu\\gpu_process_host.cc:956] GPU process exited unexpectedly: exit_code=34\n' +
+        "[pid=20004][err] [20004:2768:0522/170441.974:ERROR:services\\on_device_model\\public\\cpp\\service_client.cc:36] Unexpected on_device_model service disconnect: The device's GPU is not supported.\n" +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//button[normalize-space(text())=\\'Add to Cart\\']')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to 2 elements. Proceeding with the first one: <button name="button" type="submit" data-gaclick="1" data-id="314152" data-gaaction="clicked" id="add-to-cart-button" data-event="add_to_cart" data-gacategory="product" data-galabel="add to cart" data-gausetimespent="true" data-sku="FNSGBR12AM16362" data-variantname="(Amber Walnut Finish)" class="primary action-button  add-to-cart">Add to Cart↵</button>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    453 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m        - element is not visible\x1B[22m\n' +
+        '\x1B[2m      - retrying click action\x1B[22m\n' +
+        '\x1B[2m        - waiting 500ms\x1B[22m\n',
+      stack: 'Error: page.click: Target page, context or browser has been closed\n' +
+        'Browser logs:\n' +
+        '\n' +
+        '<launching> C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\chromium-1169\\chrome-win\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AcceptCHFrame,AutoExpandDetailsElement,AvoidUnnecessaryBeforeUnloadCheckSync,CertificateTransparencyComponentUpdater,DeferRendererTasksAfterInput,DestroyProfileOnBrowserClose,DialMediaRouteProvider,ExtensionManifestV2Disabled,GlobalMediaControls,HttpsUpgrades,ImprovedCookieControls,LazyFrameLoading,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=C:\\Windows\\TEMP\\playwright_chromiumdev_profile-LmuohS --remote-debugging-pipe --no-startup-window\n' +
+        '<launched> pid=20004\n' +
+        '[pid=20004][err] [20004:2768:0522/170142.156:ERROR:gpu\\ipc\\client\\command_buffer_proxy_impl.cc:327] GPU state invalid after WaitForGetOffsetInRange.\n' +
+        '[pid=20004][err] [20004:2768:0522/170142.156:ERROR:gpu\\ipc\\client\\command_buffer_proxy_impl.cc:327] GPU state invalid after WaitForGetOffsetInRange.\n' +
+        '[pid=20004][err] [20004:2768:0522/170142.171:ERROR:content\\browser\\gpu\\gpu_process_host.cc:956] GPU process exited unexpectedly: exit_code=34\n' +
+        "[pid=20004][err] [20004:2768:0522/170441.974:ERROR:services\\on_device_model\\public\\cpp\\service_client.cc:36] Unexpected on_device_model service disconnect: The device's GPU is not supported.\n" +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//button[normalize-space(text())=\\'Add to Cart\\']')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to 2 elements. Proceeding with the first one: <button name="button" type="submit" data-gaclick="1" data-id="314152" data-gaaction="clicked" id="add-to-cart-button" data-event="add_to_cart" data-gacategory="product" data-galabel="add to cart" data-gausetimespent="true" data-sku="FNSGBR12AM16362" data-variantname="(Amber Walnut Finish)" class="primary action-button  add-to-cart">Add to Cart↵</button>\x1B[22m\n' +
+        '\x1B[2m  - attempting click action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying click action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    453 × waiting for element to be visible, enabled and stable\x1B[22m\n' +
+        '\x1B[2m        - element is not visible\x1B[22m\n' +
+        '\x1B[2m      - retrying click action\x1B[22m\n' +
+        '\x1B[2m        - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at cartPage.addToCart (C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js:10:29)\n' +
+        '    at C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\tests\\urbanLader.spec.js:36:16',
+      cause: undefined
+    }
+  }
+}
+page.click: Target page, context or browser has been closed
+    at cartPage.checkOut (C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\pages\cartPage.js:25:29)
+    at C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\tests\urbanLader.spec.js:37:16 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@40',
+    location: {
+      file: 'C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js',
+      line: 25,
+      column: 29,
+      function: 'cartPage.checkOut'
+    },
+    category: 'pw:api',
+    title: "page.click((//button[@id='checkout-link'])[1])",
+    apiName: 'page.click',
+    params: { selector: "(//button[@id='checkout-link'])[1]" },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@40'
+    },
+    complete: [Function: complete],
+    endWallTime: 1747913763559,
+    error: {
+      message: 'Error: page.click: Target page, context or browser has been closed',
+      stack: 'Error: page.click: Target page, context or browser has been closed\n' +
+        '    at cartPage.checkOut (C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\pages\\cartPage.js:25:29)\n' +
+        '    at C:\\Users\\2397922\\OneDrive - Cognizant\\Documents\\HACKATHON\\tests\\urbanLader.spec.js:37:16',
+      cause: undefined
+    }
+  }
+}
+locator.fill: Target page, context or browser has been closed
+    at cartPage.enterEmail (C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\pages\cartPage.js:34:65)
+    at C:\Users\2397922\OneDrive - Cognizant\Documents\HACKATHON\tests\urbanLader.spec.js:39:16

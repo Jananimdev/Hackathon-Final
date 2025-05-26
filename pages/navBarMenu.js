@@ -9,7 +9,7 @@ exports.navBarMenu = class navBarMenu {
     async getValueOfMenu(value) {
         try {
             await this.page.locator(`//div[@id='topnav_wrapper']//li//span[normalize-space(text())='${value}']`).hover();
-            await expect(this.page.locator("//span[@class='topnav_itemname active']")).toContainText(value);
+            await expect(await this.page.locator("//span[@class='topnav_itemname active']")).toContainText(value);
             this.menuItems = await this.page.locator(`(//div[@id='topnav_wrapper']//li//span[normalize-space(text())='${value}'])/following-sibling::div//ul//li`).evaluateAll(items =>
                 items.map(item => {
                     const mainItem = item.querySelector('.taxontype a') ? item.querySelector('.taxontype a').textContent.trim() : item.textContent.trim();

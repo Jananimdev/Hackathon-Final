@@ -6,9 +6,9 @@ import inputData from '../data/input.json' assert { type : 'json' };
 import { getPorductDetails } from '../pages/getPorductDetails';
 import { cartPage } from '../pages/cartPage';
 import {writingOutput} from '../pages/writingOutput';
-
-
-
+ 
+ 
+ 
 test('bookShelves',async ({page}) => {
     //object creation
     const book = new productSearch(page);
@@ -16,7 +16,7 @@ test('bookShelves',async ({page}) => {
     const navMenu = new navBarMenu(page);
     const getDetails = new getPorductDetails(page);
     const xl = new writingOutput(page);
-    
+   
     await book.loadURL();
     await wait.waitingURL(book.url);
     await book.selectProductType(inputData.productName);
@@ -32,17 +32,17 @@ test('bookShelves',async ({page}) => {
     await book.selectProduct();
     const cart = new cartPage(book.newPage);
     await wait.waitingLoad();
-
+ 
     await cart.addToCart();
     await cart.checkOut();
-    
+   
     await cart.enterEmail();
+    
     await cart.enterPincode();
-    await book.newPage.screenshot({path:"data/errorMsg.png"})
     await cart.validateEmail();
     await cart.validatePinCode();
-    
-
+   
+ 
     const result = {
         menuItems: navMenu.menuItems,
         products: getDetails.products,
@@ -50,7 +50,7 @@ test('bookShelves',async ({page}) => {
         pinErrors: cart.pinerr
     };
     xl.writeJson(result);
-
+ 
     const menuItems = result.menuItems.map(item => ({
         mainItem: item.mainItem,
         subItems: item.subItems.join(', ')
@@ -61,7 +61,7 @@ test('bookShelves',async ({page}) => {
         Product_Price: product.Price
     }));
     await xl.createAppend(products,inputData.productName);
-    
+   
     const errors = [
         {
             EmailErrors: result.emailErrors,
@@ -70,5 +70,6 @@ test('bookShelves',async ({page}) => {
     ];
     await xl.createAppend(errors,"Validaton");
     await xl.writeExcel();
-    
+   
 });
+ 

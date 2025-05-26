@@ -1,3 +1,4 @@
+const {test,expect}=require('@playwright/test');
 exports.cartPage = class cartPage{
     constructor(page){
         this.page = page;
@@ -34,6 +35,7 @@ exports.cartPage = class cartPage{
         try {
                 await this.page.getByPlaceholder("Enter Email").fill("email@17");
                 
+                
             } catch (error) {
                 console.log(error);
             }
@@ -41,7 +43,7 @@ exports.cartPage = class cartPage{
         async enterPincode(){
             try {
             await this.page.locator("//input[@id='order_ship_address_attributes_zipcode']").fill("987");
-            
+            await this.page.screenshot({path:'screenshot/error.png'});
         } catch (error) {
                 console.log(error);
             }

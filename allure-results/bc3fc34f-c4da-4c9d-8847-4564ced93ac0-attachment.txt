@@ -1,0 +1,76 @@
+ExpectError: Timed out 5000ms waiting for expect(locator).toContainText(expected)
+
+Locator: locator('//span[@class=\'topnav_itemname active\']')
+Expected string: "Storage Furniture"
+Received: <element(s) not found>
+Call log:
+  - expect.toContainText with timeout 5000ms
+  - waiting for locator('//span[@class=\'topnav_itemname active\']')
+
+    at navBarMenu.getValueOfMenu (C:\Users\2398035\OneDrive - Cognizant\Desktop\Hackathon-Final\pages\navBarMenu.js:12:94)
+    at C:\Users\2398035\OneDrive - Cognizant\Desktop\Hackathon-Final\tests\urbanLader.spec.js:29:5 {
+  matcherResult: {
+    name: 'toContainText',
+    expected: 'Storage Furniture',
+    message: '\x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+      '\n' +
+      "Locator: locator('//span[@class=\\'topnav_itemname active\\']')\n" +
+      'Expected string: \x1B[32m"Storage Furniture"\x1B[39m\n' +
+      'Received: <element(s) not found>\n' +
+      'Call log:\n' +
+      '\x1B[2m  - expect.toContainText with timeout 5000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for locator('//span[@class=\\'topnav_itemname active\\']')\x1B[22m\n",
+    pass: false,
+    actual: '<element(s) not found>',
+    log: [
+      '  - expect.toContainText with timeout 5000ms',
+      "  - waiting for locator('//span[@class=\\'topnav_itemname active\\']')"
+    ],
+    timeout: 5000
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@24',
+    category: 'expect',
+    title: 'expect.toContainText',
+    params: { expected: 'Storage Furniture' },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\Hackathon-Final\\pages\\navBarMenu.js',
+      line: 12,
+      column: 94,
+      function: 'navBarMenu.getValueOfMenu'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@24'
+    },
+    complete: [Function: complete],
+    endWallTime: 1748240361759,
+    error: {
+      message: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator('//span[@class=\\'topnav_itemname active\\']')\n" +
+        'Expected string: \x1B[32m"Storage Furniture"\x1B[39m\n' +
+        'Received: <element(s) not found>\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toContainText with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('//span[@class=\\'topnav_itemname active\\']')\x1B[22m\n",
+      stack: 'Error: \x1B[31mTimed out 5000ms waiting for \x1B[39m\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+        '\n' +
+        "Locator: locator('//span[@class=\\'topnav_itemname active\\']')\n" +
+        'Expected string: \x1B[32m"Storage Furniture"\x1B[39m\n' +
+        'Received: <element(s) not found>\n' +
+        'Call log:\n' +
+        '\x1B[2m  - expect.toContainText with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('//span[@class=\\'topnav_itemname active\\']')\x1B[22m\n" +
+        '\n' +
+        '    at navBarMenu.getValueOfMenu (C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\Hackathon-Final\\pages\\navBarMenu.js:12:94)\n' +
+        '    at C:\\Users\\2398035\\OneDrive - Cognizant\\Desktop\\Hackathon-Final\\tests\\urbanLader.spec.js:29:5',
+      cause: undefined
+    }
+  }
+}
